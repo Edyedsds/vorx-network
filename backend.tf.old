@@ -1,7 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "edyedsds"
-    key    = "vorx-network.tfstate"
+    bucket = "edylab"
+    key    = ""
     region = "us-east-1"
   }
 }
+i}
