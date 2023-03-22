@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "vcavalcanti-vorx-terraform"
+    bucket = "edylab"
     key    = "vorx-network.tfstate"
     region = "us-east-1"
   }
