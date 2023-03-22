@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "viniciusarjonas-vorx-terraform"
+    bucket = "edyterraform"
     key    = "vorx-network.tfstate"
     region = "us-east-1"
   }
